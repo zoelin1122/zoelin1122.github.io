@@ -3,13 +3,34 @@
     <head>
         <title>Index</title>
     </head>
-    <style>a {text-decoration: none;} </style>
+    <style>
+                /* unvisited link */
+            a:link {
+            text-decoration: italic;
+            }
+
+            /* visited link */
+            a:visited {
+            text-decoration: italic;
+            }
+
+            /* mouse over link */
+            a:hover {
+            text-decoration: underline wavy;
+            }
+
+            /* selected link */
+            a:active {
+            text-decoration: none;
+            }
+    </style>
     <body style="background-color:orangered; margin:10%;">
         <nav>
             <table style="width:100%">
                 <tr>
-                    <th><h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; color: blue; font-size: larger;"> 
-                        INDEX </h2></th>
+                    <th><a href="index.html"><h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: initial; color: blue; font-size: larger;"> 
+                        INDEX 
+                    </h2></a></th>
                     <th><a href="UJAH.html"><h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: initial; color: blue; font-size: larger;"> 
                         UJAH 
                     </h2></a></th>
