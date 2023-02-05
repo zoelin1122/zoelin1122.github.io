@@ -2,149 +2,79 @@
 <html>
     <head>
         <title>Index</title>
-    </head>
-    <style>
-            /* unvisited link */
-            a:link {
-            text-decoration: none;
-            }
-
-            /* visited link */
-            a:visited {
-            text-decoration: none;
-            }
-
-            /* mouse over link */
-            a:hover {
-            text-decoration: underline wavy;
-            text-decoration-color: blue;
-            }
-
-            /* selected link */
-            a:active {
-            text-decoration: underline;
-            }
-
-            /* aside {
-            width: 40%;
-            padding-top: 15px;
-            padding-right: 15px;
-            margin-right: 25px;
-            float: left;
-            font-style: italic;
-            } */
-
-            .text{
-            padding-top:15px;
-            padding-bottom:20px; 
-            line-height: 200% ; 
-            color: white; 
-            font-size: 200%; 
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-
-            h1 {
-            padding-bottom: 0%; 
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-style:oblique;
-            color: blue; 
-            font-size: 1500%; 
-            line-height: 80%;
-            }
-
-            h2 {
-            text-align:center;
-            font-family: Georgia, 'Times New Roman', Times, serif; 
-            font-style: italic; color: blue; 
-            font-size: larger;
-            }
-
-            span {
-            color: white; 
-            font-size: 150%; 
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            line-height: 100%;
-            }
-            span b{
-                font-style: oblique; 
-                color:blue; 
-                font-size: 1300%;
-            }
-
-            .project:hover{
-                filter: grayscale(100%) opacity(50%);
-            }
-
-    </style>
-    <body style="background-color:orangered; margin:5% 10% 0% 10%;">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body style="background-color:white; margin:5% 10% 0% 10%;">
         <header style="margin-bottom: 0; padding-bottom: 0;">
             <nav>
                 <table style="width:100%">
                     <tr>
-                        <th style="width: 30%;"><a href="index.html"><h2> 
+                        <th style="width: 50%;"><a href="index.html"><h2> 
                             INDEX 
                         </h2></a></th>
-                        <th style="width: 30%;"><a href="UJAH.html"><h2> 
-                            UJAH 
-                        </h2></a></th>
-                        <th style="width: 30%;"><a href="misc.html"><h2> 
-                            MISC. 
+                        <th style="width: 50%;"><a href="about.html"><h2> 
+                            ABOUT 
                         </h2></a></th>
                       </tr>
                 </table>
             </nav>
             <h1>Zoe L.</h1>
         </header>
-        <!-- <aside>
-            <img src="me.JPG" alt="UJAH" style="float: left;width:100%; margin: 20px, 20px, 20px, 0;">
-        </aside> -->
-        <table>
+
+        <table style="width:100%; margin-top: 100px;">
             <tr>
-                <td style="width: 40%; padding-right: 5%;">
-                    <img src="me.JPG" alt="UJAH" style="float: left;width:100%; margin: 20px, 20px, 20px, 0;">
-                </td>
-                <td>
-                    <div class="text">
-                        Hi! My name is Zoe, currently majoring in Cognitive Systems & minoring in Urban Studies at the University of British of Columbia.
-                    </div><div class="text">
-                        I am interested in the design of smart systems, both artificial and natural, most particularly, in deceptively "dumb" systems that behave intelligently and robustly. 
+                <td onclick="location.href='gis.html'" style="width: 40%; vertical-align:top">
+                    <div class="project_title">
+                        <p style="color: blue; font-size:150%; text-align: left; ">
+                        Evaluating Amenity Access Within A Vehicle-less NYC
+                    </p>
                     </div>
                 </td>
-            </tr>
-        </table>
-        <!-- <p>
-            Hi! My name is Zoe, currently majoring in Cognitive Systems & minoring in Urban Studies at the University of British of Columbia.
-        </p><p>
-            I am interested in the design of smart systems, both artificial and natural, most particularly, in deceptively "dumb" systems that behave intelligently and robustly. 
-        </p>--><div class="text" style="text-align: right; font-style:italic; margin-top:-100px ; margin-bottom:50px ;">
-            <span><b><sub>"    </sub></b>I approach design through the lenses of psychology, philosophy, linguistics, and computer science. 
-                Maneuvering between value systems, resolving issues through active shifts in perspective is central to my design thinking<c style="color: blue;">.</c>
-            </span>        
-        </div> 
-        <div class="text"> 
-            Driven by my passion to understand & consolidate the often conflicting intersections of the values & frameworks between technology & society, 
-            I am drawn to projects that address the range of issues this tension can produce, from unintuitive UX to serious ethical concerns. 
-        </div>
-        <table style="width:100%">
-            <tr>
-                <td onclick="location.href='UJAH.html'">
+                <td onclick="location.href='gis.html'">
                     <div class="project">
-                    <p style="color: white; font-size:150%; margin-bottom:0px; text-align: right;">
-                        {UJAH}
-                        </p>
-                        <br>
-                        <img src="trainwindow3.jpg" alt="UJAH" style="width:100%">
+                        <img src="Assets/GIS/GIS_Page_01 copy.jpg" alt="GIS" style="width:100%">
                     </div>
                 </td>
             </tr>   
             <tr>
-                <td onclick="location.href='misc.html'" style ="margin-top:5%;">
+                <td onclick="location.href='UJAH.html'" style="width: 40%; vertical-align:top">
+                    <div class="project_title">
+                    <p style="color: blue; font-size:150%; text-align: left; ">
+                        Negotiating Bottom-up Democratic Placemaking</p>
+                    </div>
+                </td>
+                <td onclick="location.href='UJAH.html'">
                     <div class="project">
-                    <p style="color: white; font-size:150%; margin-bottom:0px; text-align: right;">
-                        {misc.}
-                        </p>
-                        <br>
-                        <img src="assignment1.jpg" alt="DES" style="width:100%;">
+                        <img src="Assets/Artifact.gif" alt="GIS" style="width:100%">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="location.href='UX.html'" style="width: 40%; vertical-align:top">
+                    <div class="project_title">
+                    <p style="color: blue; font-size:150%; text-align: left; ">
+                        EDI User Experience Research</p>
+                    </div>
+                </td>
+                <td onclick="location.href='UX.html'">
+                    <div class="project">
+                        <img src="Assets/EDI_UX/WRWG UX Research Summary S2022_Page_01.jpg" alt="UX" style="width:100%">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="location.href='UJAH.html'" style="width: 40%; vertical-align:top">
+                    <div class="project_title">
+                    <p style="color: blue; font-size:150%; text-align: left; ">
+                        Chinatown’s Food Network: 
+                        <br>A Story of Food, Immigration, Zoning, & Informality
+                    </p>
+                    </div>
+                </td>
+                <td onclick="location.href='UJAH.html'">
+                    <div class="project">
+                        <img src="Assets/Chinatown.gif" alt="GIS" style="width:100%">
                     </div>
                 </td>
             </tr>
@@ -152,8 +82,8 @@
     </body>
     <footer style="margin: 5%;">
         <p style="text-align: right; margin-bottom: 0px;">
-        <a href="https://www.instagram.com/zoelin1122/"><img src="IG.png" alt="IG" style="padding:1%; width:5%"></a>
-        <a href="https://www.linkedin.com/in/zoe-tzu-jo-lin-00b18047/"><img src="LI.png" alt="LI" style="padding:1%; width:5%"></a>
-        <a href="Zoe Lin_CV.pdf"><img src="cv.png" alt="CV.png" style="padding:1%; width:5%"></a></p>
+        <a href="https://www.instagram.com/zoelin1122/"><img src="Assets/IG.png" alt="IG" style="padding:1%; width:5%"></a>
+        <a href="https://www.linkedin.com/in/zoe-tzu-jo-lin-00b18047/"><img src="Assets/LI.png" alt="LI" style="padding:1%; width:5%"></a>
+        <a href="Zoe Lin_CV.pdf"><img src="Assets/cv.png" alt="CV.png" style="padding:1%; width:5%"></a></p>
     </footer>
 </html>

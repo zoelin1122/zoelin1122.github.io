@@ -1,0 +1,107 @@
+
+.log {
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    background: white;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align:center;
+    font-style: normal;
+  }
+
+  a:link {
+    text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+    text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+    text-decoration: underline wavy;
+    text-decoration-color: blue;
+    }
+
+    /* selected link */
+    a:active {
+    text-decoration: underline;
+    }
+
+    /* aside {
+    width: 40%;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-right: 25px;
+    float: left;
+    font-style: italic;
+    } */
+
+    .text{
+    padding-top:10px;
+    padding-bottom:20px; 
+    line-height: 150% ; 
+    color: black; 
+    font-size: 150%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .subtext, li{
+        padding:10px 20px 20px 20px;
+        line-height: 120% ; 
+        color: black; 
+        font-size: 100%; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+    h1 {
+    margin-bottom: 100px; 
+    padding-left: 5%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    color: blue; 
+    font-size: 1500%; 
+    line-height: 80%;
+    }
+
+    h2 {
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-style: italic; color: blue; 
+    font-size: larger;
+    }
+
+    span {
+    color: black; 
+    font-size: 150%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    }
+    span b{
+        font-style: oblique; 
+        color:blue; 
+        font-size: 1300%;
+        margin-top: 10vh;
+    }
+
+    .project:hover{
+        filter: grayscale(100%) opacity(50%);
+    }
+    
+    p{
+        padding-top:10px;
+        padding-bottom:20px; 
+        line-height: 150% ; 
+        color: black; 
+        font-size: 150%; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .project{
+        margin:0 0 10% 15%;
+        filter: drop-shadow(0.2rem 0.2rem 0.3rem #666);
+    }
